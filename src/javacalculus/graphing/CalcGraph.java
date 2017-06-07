@@ -311,6 +311,9 @@ public class CalcGraph extends JComponent implements Runnable, MouseListener, Mo
 	public void mouseReleased(MouseEvent e) {
 		//System.out.println(InputEvent.getModifiersExText(e.getModifiersEx()));
 		oldMouseX = Integer.MIN_VALUE;
+		 /*
+		 public final class CalculusEn
+		 */
 		oldMouseY = Integer.MIN_VALUE;
 		
 		//calculate and draw new boundary points from the zoom rectangle upon mouse release

@@ -50,7 +50,7 @@ public class CalcPLOT implements CalcFunctionEvaluator, CalcPlotter {
 				function.removeVariable(0);
 				function.addVariable((CalcSymbol)input.get(1));
 				
-				showGraph();
+				//showGraph();
 				return input;
 			}
 		}
