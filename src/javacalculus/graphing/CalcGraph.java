@@ -48,10 +48,10 @@ public class CalcGraph extends JComponent implements Runnable, MouseListener, Mo
 	//private static final int DEFAULT_IMAGETYPE = BufferedImage.TYPE_INT_ARGB;
 	
 	private double 
-	min_x = -10, min_x_lowest = min_x,
-	max_x = 10, max_x_highest = max_x,
-	min_y = -10,
-	max_y = 10,
+	min_x = -1, min_x_lowest = min_x,
+	max_x = 20, max_x_highest = max_x,
+	min_y = -1,
+	max_y = 20,
 	resolution = 0.005,	//distance between each x-value sample
 	zoom_factor = 1;
 
